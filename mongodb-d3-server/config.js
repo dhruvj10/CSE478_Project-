@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const uri = "mongodb+srv://djain30:12345@478projectdb.gbwao.mongodb.net/Titles?retryWrites=true&w=majority&appName=478ProjectDb"; // Replace with your MongoDB URI if it's different
+const uri = "mongodb+srv://<your Mongo USER>:<your password>@478projectdb.gbwao.mongodb.net/Titles?retryWrites=true&w=majority&appName=478ProjectDb"; // Replace with your MongoDB URI if it's different
 
 const connectDB = async () => {
   try {
